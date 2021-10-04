@@ -1,8 +1,11 @@
 import React from 'react';
+import './TeamCard.css'
 
 function TeamCard({team, SetTeamInfo}) {
     return (
-        <img className="logos" onClick={()=>SetTeamInfo(team)} style={{maxHeight:'100px',maxWidth:'100px'}}src={team.logo} alt={team.name}></img>
+        <div className="logoCard">
+            <img className="logos" onClick={()=>SetTeamInfo(team)} src={team.logo} alt={team.name}></img>
+        </div>
     );
 }
 

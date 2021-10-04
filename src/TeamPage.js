@@ -19,13 +19,13 @@ function TeamPage() {
     return (
        <>
         <h1>Teams</h1>
-        <div style ={{margin:'auto', width: '800px', height: '400px', padding:"20px"}}>
+        <div style ={{margin:'auto', width: '700px', height: '400px', padding:"20px"}}>
             {displayTeamCards}
         </div>
         <div>
             <h2>{teamInfo.length===0 ? null : teamInfo.name}</h2>
             <p>{teamInfo.length===0 ? null : teamInfo.city}</p>
-            <p>Championship Years: {teamInfo.length===0 ? null : teamInfo.champYears}</p>
+            {teamInfo.length===0 ? null : <p>Championship Years: {teamInfo.champs.map((year=><li key={year}>{year}</li>))}</p>}
         </div>
        </>
     );
