@@ -209,6 +209,441 @@
             "name": "Wizards",
             "logo": "https://content.sportslogos.net/logos/6/219/full/5671_washington_wizards-primary-2016.png",
             "champs": ["1978 (as Washington Bullets)"]
-          }
+        }
     ]
+    "bracket": [
+          {
+            "id":  1,
+            "Team": "Warriors",
+            "Year": "2016",
+            "Record": .890 ,
+            "Games": 82 ,
+            "Logo": ,
+            "Finish": "Finals"
+        },
+          {
+            "id":  2,
+            "Team": "Bulls",
+            "Year": "1996",
+            "Record": .878 ,
+            "Games": 82 ,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  3,
+            "Team": "Bulls",
+            "Year": "1997",
+            "Record": .841,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  4,
+            "Team": "Celtics",
+            "Year": "1986",
+            "Record": .817,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id": 5,
+            "Team": "Bulls",
+            "Year": "1992",
+            "Record": .817,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  6,
+            "Team": "Lakers",
+            "Year": "2000",
+            "Record": .817,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  7,
+            "Team": "Mavericks",
+            "Year": "2007",
+            "Record": .817,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC 1st Round"
+        },
+          {
+            "id":  8,
+            "Team": "Warriors",
+            "Year": "2015",
+            "Record": .817,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  9,
+            "Team": "Spurs",
+            "Year": "2016",
+            "Record": .817,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Semi-Finals"
+        },
+          {
+            "id":  10,
+            "Team": "Warriors",
+            "Year": "2015",
+            "Record": .817,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  11,
+            "Team": "Celtics",
+            "Year": "2008",
+            "Record": .805,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  12,
+            "Team": "Cavaliers",
+            "Year": "2009",
+            "Record": .805,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "EC Finals"
+        },
+          {
+            "id":  13,
+            "Team": "Heat",
+            "Year": "2013",
+            "Record": .805,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  14,
+            "Team": "76ers",
+            "Year": "1983",
+            "Record": .793,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  15,
+            "Team": "Lakers",
+            "Year": "1987",
+            "Record": .793,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  16,
+            "Team": "Lakers",
+            "Year": "2009",
+            "Record": .793,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  17,
+            "Team": "Rockets",
+            "Year": "2018",
+            "Record": .793,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Finals"
+        },
+          {
+            "id":  18,
+            "Team": "SuperSonics",
+            "Year": "1996",
+            "Record": .780,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "Finals"
+        },
+          {
+            "id":  19,
+            "Team": "Jazz",
+            "Year": "1997",
+            "Record": .78,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "Finals" 
+        },
+          {
+            "id":  20,
+            "Team": "Pistons",
+            "Year": "2006",
+            "Record": .78,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "EC Finals"
+        },
+          {
+            "id":  21,
+            "Team": "Celtics",
+            "Year": "1982",
+            "Record": .768,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "EC Finals"
+        },
+          {
+            "id":  22,
+            "Team": "Celtics",
+            "Year": "1985",
+            "Record": .768,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "Finals"
+        },
+          {
+            "id":  23,
+            "Team": "Pistons",
+            "Year": "1989",
+            "Record": .768,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  24,
+            "Team": "Lakers",
+            "Year": "1990",
+            "Record": .768,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Semi-Finals"
+        },
+          {
+            "id":  25,
+            "Team": "Trail Blazers",
+            "Year": "1991",
+            "Record": .768,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Finals"
+        },
+          {
+            "id":  26,
+            "Team": "SuperSonics",
+            "Year": "1994",
+            "Record": .768,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC 1st Round"
+        },
+          {
+            "id":  27,
+            "Team": "Spurs",
+            "Year": "2006",
+            "Record": .768,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Semi-Finals"
+        },
+          {
+            "id":  28,
+            "Team": "Bucks",
+            "Year": "2020",
+            "Record": .767,
+            "Games": 73,
+            "Logo": ,
+            "Finish": "EC Semi-Finals"
+        },
+          {
+            "id":  29,
+            "Team": "Lakers",
+            "Year": "2020",
+            "Record": .732,
+            "Games": 71,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  30,
+            "Team": "Spurs",
+            "Year": "2012",
+            "Record": .758,
+            "Games": 66,
+            "Logo": ,
+            "Finish": "WC Finals"
+        },
+          {
+            "id":  31,
+            "Team": "Celtics",
+            "Year": "1981",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  32,
+            "Team": "76ers",
+            "Year": "1981",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "EC Finals"
+        },
+          {
+            "id":  33,
+            "Team":"Celtics",
+            "Year": "1984" ,
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  34,
+            "Team": "Lakers",
+            "Year": "1985",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  35,
+            "Team": "Lakers",
+            "Year": "1986",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Finals"
+        },
+          {
+            "id":  36,
+            "Team": "Lakers",
+            "Year": "1988",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  37,
+            "Team": "Suns",
+            "Year": "1993",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "Finals"
+        },
+          {
+            "id":  38,
+            "Team": "Spurs",
+            "Year": "1995",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Finals"
+        },
+          {
+            "id":  39,
+            "Team": "Bulls",
+            "Year": "1998",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  40,
+            "Team": "Jazz",
+            "Year": "1998",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "Finals"
+        },
+          {
+            "id":  41,
+            "Team": "Suns",
+            "Year": "2005",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "WC Finals"
+        },
+          {
+            "id":  42,
+            "Team": "Celtics",
+            "Year": "2009",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "EC Semi-Finals"
+        },
+          {
+            "id":  43,
+            "Team": "Bulls",
+            "Year": "2011",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "EC Finals"
+        },
+          {
+            "id":  44,
+            "Team": "Spurs",
+            "Year": "2014",
+            "Record": .756,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  45,
+            "Team": "Mavericks",
+            "Year": "2011",
+            "Record": .695,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  46,
+            "Team": "Pistons",
+            "Year": "2004",
+            "Record": .659 ,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  47,
+            "Team": "Cavaliers",
+            "Year": "2016",
+            "Record": .695,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        },
+          {
+            "id":  48,
+            "Team": "Lakers",
+            "Year": "2001",
+            "Record": .682,
+            "Games": 82,
+            "Logo": ,
+            "Finish": "NBA Champion"
+        }]
+
+
 }
