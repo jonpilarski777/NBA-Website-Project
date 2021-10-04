@@ -1,9 +1,8 @@
 import React from 'react';
 
-function TeamCard() {
+function TeamCard({team, SetTeamInfo}) {
     return (
-       <div>
-       </div>
+        <img className="logos" onClick={()=>SetTeamInfo(team)} style={{maxHeight:'100px',maxWidth:'100px'}}src={team.logo} alt={team.name}></img>
     );
 }
 
