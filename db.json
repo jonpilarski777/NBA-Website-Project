@@ -3,152 +3,182 @@
         {
             "id": 1,
             "city": "Atlanta",
-            "name": "Hawks"
+            "name": "Hawks",
+            "logo": "https://content.sportslogos.net/logos/6/220/full/8190_atlanta_hawks-primary-2021.png"
           },
           {
             "id": 2,
             "city": "Boston",
-            "name": "Celtics"
+            "name": "Celtics",
+            "logo": "https://content.sportslogos.net/logos/6/213/full/boston_celtics_logo_primary_19977628.png"
           },
           {
             "id": 3,
             "city": "Brooklyn",
-            "name": "Nets"
+            "name": "Nets",
+            "logo": "https://content.sportslogos.net/logos/6/3786/full/137_brooklyn-nets-primary-2013.png"
           },
           {
             "id": 4,
             "city": "Charlotte",
-            "name": "Hornets"
+            "name": "Hornets",
+            "logo": "https://content.sportslogos.net/logos/6/5120/full/1926_charlotte__hornets_-primary-2015.png"
           },
           {
             "id": 5,
             "city": "Chicago",
-            "name": "Bulls"
+            "name": "Bulls",
+            "logo": "https://content.sportslogos.net/logos/6/221/full/chicago_bulls_logo_primary_19672598.png"
           },
           {
             "id": 6,
             "city": "Cleveland",
-            "name": "Cavaliers"
+            "name": "Cavaliers",
+            "logo": "https://content.sportslogos.net/logos/6/222/full/cleveland_cavaliers_logo_primary_20187997.png"
           },
           {
             "id": 7,
             "city": "Dallas",
-            "name": "Mavericks"
+            "name": "Mavericks",
+            "logo": "https://content.sportslogos.net/logos/6/228/full/3463_dallas_mavericks-primary-2018.png"
           },
           {
             "id": 8,
             "city": "Denver",
-            "name": "Nuggets"
+            "name": "Nuggets",
+            "logo": "https://content.sportslogos.net/logos/6/229/full/8926_denver_nuggets-primary-2019.png"
           },
           {
             "id": 9,
             "city": "Detroit",
-            "name": "Pistons"
+            "name": "Pistons",
+            "logo": "https://content.sportslogos.net/logos/6/223/full/2164_detroit_pistons-primary-2018.png"
           },
           {
             "id": 10,
             "city": "Golden State",
-            "name": "Warriors"
+            "name": "Warriors",
+            "logo": "https://content.sportslogos.net/logos/6/235/full/3152_golden_state_warriors-primary-2020.png"
           },
           {
             "id": 11,
             "city": "Houston",
-            "name": "Rockets"
+            "name": "Rockets",
+            "logo": "https://www.nba.com/.element/img/1.0/teamsites/logos/teamlogos_500x500/hou.png"
           },
           {
             "id": 12,
             "city": "Indiana",
-            "name": "Pacers"
+            "name": "Pacers",
+            "logo": "https://content.sportslogos.net/logos/6/224/full/4812_indiana_pacers-primary-2018.png"
           },
           {
             "id": 13,
             "city": "LA",
-            "name": "Clippers"
+            "name": "Clippers",
+            "logo": "https://content.sportslogos.net/logos/6/236/full/1038_los_angeles_clippers-secondary-2016.png"
           },
           {
             "id": 14,
             "city": "Los Angeles",
-            "name": "Lakers"
+            "name": "Lakers",
+            "logo": "https://www.nba.com/.element/img/1.0/teamsites/logos/teamlogos_500x500/lal.png"
           },
           {
             "id": 15,
             "city": "Memphis",
-            "name": "Grizzlies"
+            "name": "Grizzlies",
+            "logo": "https://content.sportslogos.net/logos/6/231/full/4373_memphis_grizzlies-primary-2019.png"
           },
           {
             "id": 16,
             "city": "Miami",
-            "name": "Heat"
+            "name": "Heat",
+            "logo": "https://content.sportslogos.net/logos/6/214/full/93lzfcfcnq125eh7etyxpuhfp.gif"
           },
           {
             "id": 17,
             "city": "Milwaukee",
-            "name": "Bucks"
+            "name": "Bucks",
+            "logo": "https://content.sportslogos.net/logos/6/225/full/milwaukee_bucks_logo_primary_20165763.png"
           },
           {
             "id": 18,
             "city": "Minnesota",
-            "name": "Timberwolves"
+            "name": "Timberwolves",
+            "logo": "https://content.sportslogos.net/logos/6/232/full/9669_minnesota_timberwolves-primary-2018.png"
           },
           {
             "id": 19,
             "city": "New Orleans",
-            "name": "Pelicans"
+            "name": "Pelicans",
+            "logo": "https://content.sportslogos.net/logos/6/4962/full/2681_new_orleans_pelicans-primary-2014.png"
           },
           {
             "id": 20,
             "city": "New York",
-            "name": "Knicks"
+            "name": "Knicks",
+            "logo": "https://content.sportslogos.net/logos/6/216/full/2nn48xofg0hms8k326cqdmuis.gif"
           },
           {
             "id": 21,
             "city": "Oklahoma City",
-            "name": "Thunder"
+            "name": "Thunder",
+            "logo": "https://content.sportslogos.net/logos/6/2687/full/khmovcnezy06c3nm05ccn0oj2.png"
           },
           {
             "id": 22,
             "city": "Orlando",
-            "name": "Magic"
+            "name": "Magic",
+            "logo": "https://content.sportslogos.net/logos/6/217/full/orlando_magic_logo_primary_20117178.png"
           },
           {
             "id": 23,
             "city": "Philadelphia",
-            "name": "76ers"
+            "name": "76ers",
+            "logo": "https://content.sportslogos.net/logos/6/218/full/7034_philadelphia_76ers-primary-2016.png"
           },
           {
             "id": 24,
             "city": "Phoenix",
-            "name": "Suns"
+            "name": "Suns",
+            "logo": "https://content.sportslogos.net/logos/6/238/full/phoenix_suns_logo_primary_20143696.png"
           },
           {
             "id": 25,
             "city": "Portland",
-            "name": "Trail Blazers"
+            "name": "Trail Blazers",
+            "logo": "https://content.sportslogos.net/logos/6/239/full/9725_portland_trail_blazers-primary-2018.png"
           },
           {
             "id": 26,
             "city": "Sacramento",
-            "name": "Kings"
+            "name": "Kings",
+            "logo": "https://content.sportslogos.net/logos/6/240/full/4043_sacramento_kings-primary-2017.png"
           },
           {
             "id": 27,
             "city": "San Antonio",
-            "name": "Spurs"
+            "name": "Spurs",
+            "logo": "https://content.sportslogos.net/logos/6/233/full/2547_san_antonio_spurs-primary-2018.png"
           },
           {
             "id": 28,
             "city": "Toronto",
-            "name": "Raptors"
+            "name": "Raptors",
+            "logo": "https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png"
           },
           {
             "id": 29,
             "city": "Utah",
-            "name": "Jazz"
+            "name": "Jazz",
+            "logo": "https://content.sportslogos.net/logos/6/234/full/6749_utah_jazz-primary-2017.png"
           },
           {
             "id": 30,
             "city": "Washington",
-            "name": "Wizards"
+            "name": "Wizards",
+            "logo:": "https://content.sportslogos.net/logos/6/219/full/5671_washington_wizards-primary-2016.png"
           }
     ]
 }
