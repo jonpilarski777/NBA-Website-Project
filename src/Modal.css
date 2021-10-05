@@ -1,0 +1,59 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.modal.show{
+    opacity: 1;
+    pointer-events: visible;
+}
+
+.modal-content {
+    width: 500px;
+    min-height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.modal-header, .modal-footer {
+    padding: 10px;
+}
+
+.modal-title{
+    margin: 0;
+}
+
+.modal-body{
+    padding: 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.city-name{
+    margin-top:-15px;
+    font-family: system-ui;
+    font-style: oblique;
+}
+
+.modal-logo{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-right: 7.5%;
+    margin-bottom: 7.5%;
+}
+
+.modal-footer{
+    position: unset;
+    bottom: 158px;
+    left: 433px;
+}
