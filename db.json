@@ -216,8 +216,8 @@
           "id":  1,
           "team": "Warriors",
           "year": "2016",
-          "wins": 73 ,
-          "losses": 9 ,
+          "wins": 73,
+          "losses": 9,
           "postseasonRecord": "15-9",
           "logo": "https://content.sportslogos.net/logos/6/235/full/qhhir6fj8zp30f33s7sfb4yw0.png",
           "finish": "Finals"
@@ -225,9 +225,9 @@
         {
           "id":  2,
           "team": "Bulls",
-          "year": "1996",:
-          "wins": 72 ,
-          "losses": 10 ,
+          "year": "1996",
+          "wins": 72,
+          "losses": 10,
           "postseasonRecord": "15-3",
           "logo": "https://content.sportslogos.net/logos/6/221/full/chicago_bulls_logo_primary_19672598.png",
           "finish": "NBA Champion"
