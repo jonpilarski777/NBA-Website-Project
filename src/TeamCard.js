@@ -1,10 +1,18 @@
 import React from 'react';
-import './TeamCard.css'
+import './Teams.css'
 
-function TeamCard({team, SetTeamInfo}) {
+function TeamCard({team, SetTeamInfo, SetShowMoreYears, SetShowModal}) {
+
+    function handleClick(){
+        SetTeamInfo(team)
+        SetShowMoreYears(false)
+        SetShowModal(true)
+    }
+
+    const imageID = "logo-" + team.id
     return (
         <div className="logoCard">
-            <img className="logos" onClick={()=>SetTeamInfo(team)} src={team.logo} alt={team.name}></img>
+            <img id={imageID} className="logos" onClick={handleClick} src={team.logo} alt={team.name}></img>
         </div>
     );
 }

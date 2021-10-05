@@ -1,10 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import TeamCard from './TeamCard';
+import TeamDetailModal from './TeamDetailModal';
+import './Teams.css'
 
 function TeamPage() {
 
     const [teams, SetTeams]=useState([])
     const [teamInfo, SetTeamInfo]= useState([])
+    const [showMoreYears, SetShowMoreYears] = useState(false)
+    const [showModal, SetShowModal] = useState(false)
 
 
     useEffect(()=>{
@@ -14,19 +18,17 @@ function TeamPage() {
     },[])
     
 
-    const displayTeamCards = teams.map((team) => <TeamCard key={team.id} team={team} SetTeamInfo={SetTeamInfo}/>)
+    const displayTeamCards = teams.map((team) => <TeamCard  SetShowModal = {SetShowModal} key={team.id} team={team} SetTeamInfo={SetTeamInfo} SetShowMoreYears={SetShowMoreYears}/>)
 
     return (
        <>
-        <h1>Teams</h1>
-        <div style ={{margin:'auto', width: '700px', height: '400px', padding:"20px"}}>
+        <h1>NBA Teams</h1>
+        <div id="teams-map-container">
+            <img src="https://m.media-amazon.com/images/I/61paA6c5NtL._AC_SL1298_.jpg" alt="US Map"/>
             {displayTeamCards}
         </div>
-        <div>
-            <h2>{teamInfo.length===0 ? null : teamInfo.name}</h2>
-            <p>{teamInfo.length===0 ? null : teamInfo.city}</p>
-            {teamInfo.length===0 ? null : <p>Championship Years: {teamInfo.champs.map((year=><li key={year}>{year}</li>))}</p>}
-        </div>
+        {/* Do not render if team has not been clicked yet */}
+        {showModal ? <TeamDetailModal showModal={showModal} SetShowModal={SetShowModal} showMoreYears={showMoreYears} teamInfo={teamInfo}/>: null}
        </>
     );
 }
