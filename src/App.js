@@ -4,6 +4,8 @@ import Home from './Home';
 import TeamPage from './TeamPage';
 import Bracket from './Bracket';
 import NavBar from "./NavBar";
+import HallOfFame from './HallOfFame';
+
 import './Teams.css'
 
 function App() {
@@ -11,6 +13,9 @@ function App() {
       <div className="team-page">
         <NavBar/>
         <Switch>
+          <Route exact path ="/Hall Of Fame Voting"> 
+            <HallOfFame/>
+          </Route>
           <Route exact path="/bracket">
           <Bracket/>
           </Route>

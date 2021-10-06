@@ -1,23 +1,47 @@
-import React from 'react';
-import './Bracket.css'
+import React, {useState} from 'react';
+import './Bracket.css';
+// import Tournament from './src/components/react-tournament-ready';
 // import Button from 'react-bootstrap/Button'
+
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
 
 
-function Bracket() {
-    return (
-       <div>
-           <h1>Best Teams of All-Time Bracket</h1>
-           <button>Randomizer placeholder</button>
-           <div id = "bracket-container">
-                <img src = "https://www.interbasket.net/wp-content/uploads/NBA-playoffs-bracket-768x471.jpg" alt ="NBA Bracket"/>
 
-           </div>
+
+function Bracket() {
+// const [score, setScore] = useState(null)
+
+//     return (
+//        <div>
+//            <Tournament 
+
+// teams = {
+//     [
+//         {
+//             name: "team1",
+//             id : "team1ID"
+//         },
+//         {
+//             name: "team2",
+//             id : "team2ID"
+//         },
+//     ]
+// }
+// />
+//            <h1>Best Teams of All-Time Bracket</h1>
+//            <button>Randomizer placeholder</button>
+
+
+
+//            <div id = "bracket-container">
+//                 <img src = "https://www.interbasket.net/wp-content/uploads/NBA-playoffs-bracket-768x471.jpg" alt ="NBA Bracket"/>
+
+//            </div>
           
-           {/*Displays a 16 team bracket with the teams rendered in (probably need another component here)*/}
-       </div>
-    );
+//            {/*Displays a 16 team bracket with the teams rendered in (probably need another component here)*/}
+//        </div>
+//     );
 }
 
 export default Bracket;
