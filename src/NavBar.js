@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
     display: "inline-block",
-    width: "55px",
+    width: "95px",
     padding: "5px 12px",
     margin: "0 20px 0 -1px",
     background: "white",
@@ -21,7 +21,7 @@ function NavBar() {
             <NavLink to="/" exact style={linkStyles}>Home</NavLink>
             <NavLink to="/teams" exact style={linkStyles}>Teams</NavLink>
             <NavLink to="/bracket" exact style={linkStyles}>Bracket</NavLink>
-            <NavLink to="/Hall Of Fame Voting" exact stye = {linkStyles}>HallofFame</NavLink>
+            <NavLink to="/Hall Of Fame Voting" exact style = {linkStyles}>Hall of Fame</NavLink>
        </div>
 
     );

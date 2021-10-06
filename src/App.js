@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from "react-router-dom";
 import Home from './Home';
 import TeamPage from './TeamPage';
-import Bracket from './Bracket';
+import BestTeam from './BestTeam';
 import NavBar from "./NavBar";
 import HallOfFame from './HallOfFame';
 
@@ -16,8 +16,8 @@ function App() {
           <Route exact path ="/Hall Of Fame Voting"> 
             <HallOfFame/>
           </Route>
-          <Route exact path="/bracket">
-          <Bracket/>
+          <Route exact path="/BestTeam">
+          <BestTeam/>
           </Route>
           <Route exact path="/teams">
             <TeamPage/>
