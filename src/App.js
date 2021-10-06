@@ -4,10 +4,11 @@ import Home from './Home';
 import TeamPage from './TeamPage';
 import Bracket from './Bracket';
 import NavBar from "./NavBar";
+import './Teams.css'
 
 function App() {
     return (
-      <div>
+      <div className="team-page">
         <NavBar/>
         <Switch>
           <Route exact path="/bracket">
