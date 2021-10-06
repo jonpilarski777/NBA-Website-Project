@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import TeamCard from './TeamCard';
 import TeamDetailModal from './TeamDetailModal';
 import './Teams.css'
+import map from "./map.png"
 
 function TeamPage() {
 
@@ -21,15 +22,14 @@ function TeamPage() {
     const displayTeamCards = teams.map((team) => <TeamCard  SetShowModal = {SetShowModal} key={team.id} team={team} SetTeamInfo={SetTeamInfo} SetShowMoreYears={SetShowMoreYears}/>)
 
     return (
-       <>
-        <h1>NBA Teams</h1>
+       <div>
         <div id="teams-map-container">
-            <img src="https://m.media-amazon.com/images/I/61paA6c5NtL._AC_SL1298_.jpg" alt="US Map"/>
+            <img src={map} alt="US Map"/>
             {displayTeamCards}
         </div>
         {/* Do not render if team has not been clicked yet */}
         {showModal ? <TeamDetailModal showModal={showModal} SetShowModal={SetShowModal} showMoreYears={showMoreYears} teamInfo={teamInfo}/>: null}
-       </>
+       </div>
     );
 }
 
