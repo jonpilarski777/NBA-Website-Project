@@ -1,8 +1,8 @@
 import React from 'react';
 import './Bracket.css'
-import Button from 'react-bootstrap/Button'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+// import Button from 'react-bootstrap/Button'
+// import Row from 'react-bootstrap/Row'
+// import Col from 'react-bootstrap/Col'
 
 
 function Bracket() {
