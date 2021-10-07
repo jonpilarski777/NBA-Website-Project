@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
+import './bestTeam.css'
 
 function BestTeam() {
-
 const[teams, SetTeams] = useState([])
 
 useEffect(()=>{
@@ -13,7 +13,6 @@ useEffect(()=>{
 
 
     return (
-    //     <>
          <div className = "container">
             <h1> Best NBA Teams Ever </h1>
              <table>
@@ -25,7 +24,7 @@ useEffect(()=>{
                         <th>Losses</th>
                         <th>Postseason Record</th>
                         <th>Finish</th>
-                        </tr>
+                     </tr>
                 </thead>
                 <tbody>
                     {
@@ -40,13 +39,10 @@ useEffect(()=>{
                             </tr>
                         ))
                     }
-
                 </tbody>
             </table>
          </div>   
     );
 }
-
-
 
 export default BestTeam
