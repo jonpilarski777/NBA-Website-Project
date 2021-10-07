@@ -16,7 +16,8 @@ function PlayerCard({name, votes,color, totalVotes}) {
         height:"25px",
         margin: "-9px 10px 0px 10px",
         width: `${widthAmount.toString()}px`,
-        paddingLeft: "5px"
+        paddingLeft: "5px",
+        color: "white"
     }
 
     return (
