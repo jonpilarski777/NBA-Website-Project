@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 
 function PlayerCard({name, votes,color, totalVotes}) {
     const widthAmount = ((votes/totalVotes) * 5000)
-    console.log(widthAmount.toString())
     const [style, SetStyle] = useState({
             backgroundColor: "white",
             height: "35px",
