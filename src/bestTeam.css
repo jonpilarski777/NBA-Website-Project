@@ -1,7 +1,11 @@
 .container {
     color: white;
    font-size: 14px; 
-    /* overflow: scroll;
-    white-space: nowrap; */
+    overflow-y: scroll;
+    height: 900px 
+}
+
+tr :hover {
+    color: gold;
 }
 

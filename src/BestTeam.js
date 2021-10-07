@@ -2,42 +2,41 @@ import React, {useEffect, useState} from 'react';
 import './bestTeam.css'
 
 function BestTeam() {
-const[teams, SetTeams] = useState([])
-// const[]
+const[historicalTeams, SetHistoricalTeams] = useState([])
+const[topMatchup, SetTopMatchup] = useState({})
+const[BottomMatchup, SetBottomMatchup] = useState({})
 
 useEffect(()=>{
     fetch("http://localhost:4000/bestTeam")
     .then(r=>r.json())
-    .then(teamObj =>SetTeams(teamObj))
+    .then(teamObj =>SetHistoricalTeams(teamObj))
 },[]) 
 
-
-// function handleClick(){
-
-
-
-
-// }
-
+function handleClick(){
+    console.log("success")
+}
     return (
          <div className = "container">
             <h1 style = {{color: "gold"}}> Best NBA Teams Ever </h1>
              <table>
                 <thead>
                      <tr style = {{fontSize: "22px"}}>
+                        <th> </th>
                         <th>Year</th>
                         <th>Team</th>
                         <th>W</th>
                         <th>L</th>
                         <th>%</th>
-                        <th>Playoff W/L</th>
+                        <th>Playoffs</th>
                         <th>Finish</th>
                      </tr>
                 </thead>
                 <tbody style = {{textAlign:"center"}}>
                     {
-                        teams.map((teamObj) => (
-                            <tr key = {teamObj.id}>
+                        historicalTeams.map((teamObj) => (
+                            <tr key = {teamObj.id} onClick = {handleClick}>
+                                    <td> 
+                                        <img src={teamObj.logo} width = "40" height ="40"/></td>
                                     <td> {teamObj.year}</td>
                                     <td> {teamObj.team}</td>
                                     <td> {teamObj.wins}</td>
@@ -53,5 +52,4 @@ useEffect(()=>{
          </div>   
     );
 }
-
 export default BestTeam

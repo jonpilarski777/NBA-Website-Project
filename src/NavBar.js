@@ -13,8 +13,6 @@ const linkStyles = {
     color: "black",
     textAlign: "center"
   };
-
-
 function NavBar() {
     return (
        <div>
