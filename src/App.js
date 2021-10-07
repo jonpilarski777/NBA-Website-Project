@@ -22,9 +22,6 @@ function App() {
           <Route exact path="/teams">
             <TeamPage/>
           </Route>
-          <Route exact path="/">
-            <Home/>
-          </Route>
         </Switch>       
       </div>
     );

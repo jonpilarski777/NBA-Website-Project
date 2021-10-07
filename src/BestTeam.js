@@ -34,9 +34,9 @@ function handleClick(){
                 <tbody style = {{textAlign:"center"}}>
                     {
                         historicalTeams.map((teamObj) => (
-                            <tr key = {teamObj.id} onClick = {handleClick}>
-                                    <td> 
-                                        <img src={teamObj.logo} width = "40" height ="40"/></td>
+                            <tr className="best-team-list" key = {teamObj.id} onClick = {handleClick}>
+                                    <td className="team-logo-td"> 
+                                        <img className="best-team-logo" src={teamObj.logo} width = "40" height ="40"/></td>
                                     <td> {teamObj.year}</td>
                                     <td> {teamObj.team}</td>
                                     <td> {teamObj.wins}</td>

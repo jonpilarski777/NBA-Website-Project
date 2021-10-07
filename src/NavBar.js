@@ -16,7 +16,6 @@ const linkStyles = {
 function NavBar() {
     return (
        <div>
-            <NavLink to="/" exact style={linkStyles}>Home</NavLink>
             <NavLink to="/teams" exact style={linkStyles}>Teams</NavLink>
             <NavLink to="/BestTeam" exact style={linkStyles}>Historical Teams</NavLink>
             <NavLink to="/HofVoting" exact style = {linkStyles}>Hall of Fame</NavLink>

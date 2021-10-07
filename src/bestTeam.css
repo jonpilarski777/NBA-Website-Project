@@ -5,7 +5,11 @@
     height: 900px 
 }
 
-tr :hover {
+.best-team-list:hover {
     color: gold;
+    
 }
 
+.best-team-logo{
+    mix-blend-mode: multiply;
+}
