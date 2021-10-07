@@ -211,7 +211,7 @@
         "champs": ["1978 (as Washington Bullets)"]
       }
   ],
-  "bracket": [
+  "bestTeam": [
         {
           "id":  1,
           "team": "Warriors",
@@ -696,63 +696,81 @@
       "players": [
         {
           "id": 1,
-          "name": "Player 1",
-          "votes": 0
+          "name": "Klay Thompson",
+          "picture":"" ,
+          "votes": 10
         },
         {
           "id": 2,
-          "name": "Player 2",
-          "votes": 0
+          "name": "Rajon Rondo",
+          "picture": "",
+          "votes": 20
         },
         {
           "id": 3,
-          "name": "Player 3",
-          "votes": 0
+          "name": "Kawhi Leonard",
+          "picture": "",
+          "votes": 13
         },
         {
           "id": 4,
-          "name": "Player 4",
-          "votes": 0
+          "name": "Kyle Lowry",
+          "picture":"",
+          "votes": 16
         },
         {
           "id": 5,
-          "name": "Player 5",
-          "votes": 0
+          "name": "Manu Ginoboli",
+          "picture": "",
+          "votes": 21
         },
         {
           "id": 6,
-          "name": "Player 6",
-          "votes": 0
+          "name": "Draymond Green",
+          "picture":"",
+          "votes": 19
         },
         {
           "id": 7,
-          "name": "Player 7",
-          "votes": 0
+          "name": "Jimmy Butler",
+          "picture":"",
+          "votes": 17
         },
         {
           "id": 8,
-          "name": "Player 8",
-          "votes": 0
+          "name": "Tony Parker",
+          "picture":"",
+          "votes": 13
         },
         {
           "id": 9,
-          "name": "Player 9",
-          "votes": 0
+          "name": "Chauncey Billups",
+          "picture":"",
+          "votes": 10
         },
         {
           "id": 10,
-          "name": "Player 10",
-          "votes": 0
+          "name": "Nikola Jokic",
+          "picture":"",
+          "votes": 12
         },
         {
           "id": 11,
-          "name": "Player 11",
-          "votes": 0
+          "name": "Zion Williamson",
+          "picture":"",
+          "votes": 12
         },
         {
           "id": 12,
-          "name": "Player 12",
-          "votes": 0
-        }
+          "name": "Damian Lillard",
+          "picture":"",
+          "votes": 22
+        },
+        {
+          "id": 13,
+          "name": "Luka Doncic",
+          "picture":"",
+          "votes": 23
+        }        
       ]
 }
