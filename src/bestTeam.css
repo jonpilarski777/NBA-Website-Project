@@ -1,6 +1,7 @@
 .container {
     color: white;
+   font-size: 14px; 
     /* overflow: scroll;
     white-space: nowrap; */
-
 }
+

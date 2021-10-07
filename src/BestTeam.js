@@ -3,6 +3,7 @@ import './bestTeam.css'
 
 function BestTeam() {
 const[teams, SetTeams] = useState([])
+// const[]
 
 useEffect(()=>{
     fetch("http://localhost:4000/bestTeam")
@@ -11,22 +12,29 @@ useEffect(()=>{
 },[]) 
 
 
+// function handleClick(){
+
+
+
+
+// }
 
     return (
          <div className = "container">
-            <h1> Best NBA Teams Ever </h1>
+            <h1 style = {{color: "gold"}}> Best NBA Teams Ever </h1>
              <table>
                 <thead>
-                     <tr>
+                     <tr style = {{fontSize: "22px"}}>
                         <th>Year</th>
                         <th>Team</th>
-                        <th>Wins</th>
-                        <th>Losses</th>
-                        <th>Postseason Record</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>%</th>
+                        <th>Playoff W/L</th>
                         <th>Finish</th>
                      </tr>
                 </thead>
-                <tbody>
+                <tbody style = {{textAlign:"center"}}>
                     {
                         teams.map((teamObj) => (
                             <tr key = {teamObj.id}>
@@ -34,6 +42,7 @@ useEffect(()=>{
                                     <td> {teamObj.team}</td>
                                     <td> {teamObj.wins}</td>
                                     <td> {teamObj.losses}</td>
+                                    <td> {(teamObj.wins/((teamObj.wins)+(teamObj.losses))).toFixed(2) +"%"}</td>
                                     <td> {teamObj.postseasonRecord}</td>
                                     <td> {teamObj.finish}</td>   
                             </tr>
