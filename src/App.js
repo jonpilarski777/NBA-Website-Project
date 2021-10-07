@@ -13,7 +13,7 @@ function App() {
       <div className="team-page">
         <NavBar/>
         <Switch>
-          <Route exact path ="/Hall Of Fame Voting"> 
+          <Route exact path ="/HofVoting"> 
             <HallOfFame/>
           </Route>
           <Route exact path="/BestTeam">

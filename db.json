@@ -557,80 +557,93 @@
         {
           "id": 1,
           "name": "Klay Thompson",
+          "color":"linear-gradient(blue, yellow)",
           "picture":"" ,
-          "votes": 0
+          "votes": 17
         },
         {
           "id": 2,
           "name": "Rajon Rondo",
+          "color":"linear-gradient(red, yellow)",
           "picture": "",
-          "votes": 0
+          "votes": 16
         },
         {
           "id": 3,
           "name": "Kawhi Leonard",
+          "color":"linear-gradient(red, yellow)",
           "picture": "",
-          "votes": 0
+          "votes": 23
         },
         {
           "id": 4,
           "name": "Kyle Lowry",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 13
         },
         {
           "id": 5,
           "name": "Manu Ginoboli",
+          "color":"linear-gradient(red, yellow)",
           "picture": "",
-          "votes": 0
+          "votes": 22
         },
         {
           "id": 6,
           "name": "Draymond Green",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 19
         },
         {
           "id": 7,
           "name": "Jimmy Butler",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 13
         },
         {
           "id": 8,
           "name": "Tony Parker",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 21
         },
         {
           "id": 9,
           "name": "Chauncey Billups",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 18
         },
         {
           "id": 10,
           "name": "Nikola Jokic",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 9
         },
         {
           "id": 11,
           "name": "Zion Williamson",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 12
         },
         {
           "id": 12,
           "name": "Damian Lillard",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 21
         },
         {
           "id": 13,
           "name": "Luka Doncic",
+          "color":"linear-gradient(red, yellow)",
           "picture":"",
-          "votes": 0
+          "votes": 15
         }        
       ]
 }

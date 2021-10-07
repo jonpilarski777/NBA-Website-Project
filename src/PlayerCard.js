@@ -1,26 +1,29 @@
 import React, {useState} from 'react';
 
-function PlayerCard({name, votes, totalVotes}) {
-    const widthAmount = ((votes/totalVotes) * 800)
+function PlayerCard({name, votes,color, totalVotes}) {
+    const widthAmount = ((votes/totalVotes) * 5000)
+    console.log(widthAmount.toString())
     const [style, SetStyle] = useState({
             backgroundColor: "white",
-            height: "40px",
+            height: "35px",
             border: "1px solid black",
             margin:" 15px 10px",
-            padding: "3px",
+            padding: "2px",
             width: "600px",
     })
 
     const voteContainer = {
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        backgroundImage: `${color}`,
         height:"25px",
         margin: "-9px 10px 0px 10px",
+        width: `${widthAmount.toString()}px`,
+        paddingLeft: "5px"
     }
 
     return (
        <div style={style}>
            <div style={voteContainer}>
-             <p>Name:{name} - {votes}/{totalVotes} Votes</p>
+             <p>{name} - {votes}/{totalVotes} Votes</p>
            </div> 
        </div>
     );

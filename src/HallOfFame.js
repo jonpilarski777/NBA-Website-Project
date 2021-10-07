@@ -11,9 +11,11 @@ function HallOfFame() {
         .then(r=> r.json())
         .then(data => SetPlayer(data))
     },[])
+
     let totalVotes = 0;
     player.map(data=>totalVotes = totalVotes + data.votes)
     const playerList = player.map(info => <PlayerCard key={info.id} totalVotes={totalVotes} {...info}/>)
+    
     return (
         <div style={{margin: "34px 40px", width: "800px", height:"820px", backgroundColor:"white", padding:"1px 10px"}}>
             <h2 style={{textAlign:"center"}}>Hall of Fame</h2>
