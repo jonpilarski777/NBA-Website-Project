@@ -20,8 +20,8 @@ function NavBar() {
        <div>
             <NavLink to="/" exact style={linkStyles}>Home</NavLink>
             <NavLink to="/teams" exact style={linkStyles}>Teams</NavLink>
-            <NavLink to="/bracket" exact style={linkStyles}>Bracket</NavLink>
-            <NavLink to="/Hall Of Fame Voting" exact style = {linkStyles}>Hall of Fame</NavLink>
+            <NavLink to="/BestTeam" exact style={linkStyles}>Best Team</NavLink>
+            <NavLink to="/HofVoting" exact style = {linkStyles}>Hall of Fame</NavLink>
        </div>
 
     );
