@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-import Home from './Home';
 import TeamPage from './TeamPage';
 import BestTeam from './BestTeam';
 import NavBar from "./NavBar";
