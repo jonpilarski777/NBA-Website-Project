@@ -25,7 +25,7 @@ function PlayerCard({name, votes, color, totalVotes, handleVotes}) {
            <div style={voteContainer}>
              <p>{name} - {votes}/{totalVotes} Votes</p>
            </div> 
-           <button onClick = {handleVotes}> Vote for me </button>
+           {/* <button onClick = {handleVotes}> Vote for me </button> */}
        </div>
     );
 }
