@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
-function PlayerCard({name, votes, color, totalVotes, handleVotes}) {
-    const widthAmount = ((votes/totalVotes) * 5000)
+function PlayerCard({name, votes, color, id, totalVotes, handleVotes, SetVotes}) {
+    const widthAmount = ((votes/totalVotes) * 4000)
     const [style, SetStyle] = useState({
             backgroundColor: "white",
             height: "35px",
@@ -19,14 +19,19 @@ function PlayerCard({name, votes, color, totalVotes, handleVotes}) {
         paddingLeft: "5px",
         color: "white"
     }
-
+    function handleClick(){
+        handleVotes(id,votes)
+        SetVotes(votes)
+    }
     return (
-       <div style={style}>
+       <>
+      <button onClick ={handleClick} style = {{float:"right", marginRight:"125px", marginTop: "10px"}}> Vote </button>
+      <div style={style}>
            <div style={voteContainer}>
              <p>{name} - {votes}/{totalVotes} Votes</p>
            </div> 
-           {/* <button onClick = {handleVotes}> Vote for me </button> */}
        </div>
+       </>
     );
 }
 
