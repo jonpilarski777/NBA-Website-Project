@@ -1,35 +1,35 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-function PlayerCard({name, votes, color, id, totalVotes, handleVotes, SetVotes}) {
-    const widthAmount = ((votes/totalVotes) * 3000)
-    const [style, SetStyle] = useState({
+function PlayerCard({name, votes, color, id, totalVotes, handleVotes}) {
+    const widthAmount = (votes/totalVotes)*100;
+    const style = {
             backgroundColor: "white",
             height: "35px",
             border: "1px solid black",
             margin:" 15px 10px",
             padding: "2px",
             width: "1500px",
-    })
+            borderRadius: "10px"
+    }
+
     const voteContainer = {
         backgroundImage: `${color}`,
         height:"25px",
-        margin: "-9px 10px 0px 10px",
-        width: `${widthAmount.toString()}px`,
+        margin: "5px 10px 10px 300px",
+        width: `${votes*10}px`,
         paddingLeft: "20px",
-        color: "white",
+        color: "black",
     }
-    function handleClick(){
-        handleVotes(id,votes)
-        SetVotes(votes)
-    }
+    
     return (
        <>
-      <button onClick ={handleClick} style = {{float:"right", marginRight:"125px", marginTop: "10px"}}> Vote </button>
+      <button onClick ={()=>handleVotes(id,votes)} style={{float:"right", marginRight:"105px", marginTop: "10px"}}> Vote </button>
       <div style={style}>
+           <p style={{float:"left", margin:"7px 0 0 6px"}}>{name} - {widthAmount.toFixed(1)}% of Total Votes</p>
            <div style={voteContainer}>
-             <p >{name} - {votes}/{totalVotes} Votes</p>
            </div> 
        </div>
+       <p style={{float:"left", marginTop: "-46px", marginLeft:`${(votes*10)+342}px`}}>({votes})</p>
        </>
     );
 }

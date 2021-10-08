@@ -10,9 +10,6 @@ useEffect(()=>{
     .then(teamObj =>SetHistoricalTeams(teamObj))
 },[]) 
 
-function handleClick(){
-    console.log("success")
-}
     return (
          <div className = "container">
             <h1 style = {{color: "gold"}}> Best NBA Teams Ever </h1>
@@ -32,7 +29,7 @@ function handleClick(){
                 <tbody style = {{textAlign:"center"}}>
                     {
                         historicalTeams.map((teamObj) => (
-                            <tr className="best-team-list" key = {teamObj.id} onClick = {handleClick}>
+                            <tr className="best-team-list" key = {teamObj.id}>
                                     <td className="team-logo-td"> 
                                         <img className="best-team-logo" alt = "Best Team Logo" src={teamObj.logo} width = "40" height ="40"/></td>
                                     <td> {teamObj.year}</td>

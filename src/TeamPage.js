@@ -11,13 +11,11 @@ function TeamPage() {
     const [showMoreYears, SetShowMoreYears] = useState(false)
     const [showModal, SetShowModal] = useState(false)
 
-
     useEffect(()=>{
         fetch("http://localhost:4000/teams")
         .then(r=>r.json())
         .then(team=>SetTeams(team))
     },[])
-    
 
     const displayTeamCards = teams.map((team) => <TeamCard  SetShowModal = {SetShowModal} key={team.id} team={team} SetTeamInfo={SetTeamInfo} SetShowMoreYears={SetShowMoreYears}/>)
 

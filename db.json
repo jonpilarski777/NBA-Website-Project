@@ -630,79 +630,79 @@
       "id": 1,
       "name": "Klay Thompson",
       "color": "linear-gradient(#006bb6, #fdb927)",
-      "votes": 17
+      "votes": 5
     },
     {
       "id": 2,
       "name": "Rajon Rondo",
       "color": "linear-gradient(#008348, grey)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 3,
       "name": "Kawhi Leonard",
       "color": "linear-gradient(grey, black)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 4,
       "name": "Kyle Lowry",
       "color": "linear-gradient(#a8a9ab, #be0f34, black)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 5,
       "name": "Manu Ginoboli",
       "color": "linear-gradient(grey, black)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 6,
       "name": "Draymond Green",
       "color": "linear-gradient(#006bb6, #fdb927)",
-      "votes": 51
+      "votes": 5
     },
     {
       "id": 7,
       "name": "Jimmy Butler",
       "color": "linear-gradient(#98002e, #f9a01b, #000000)",
-      "votes": 25
+      "votes": 5
     },
     {
       "id": 8,
       "name": "Tony Parker",
       "color": "linear-gradient(grey, black)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 9,
       "name": "Chauncey Billups",
       "color": "linear-gradient(blue, #c8102e)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 10,
       "name": "Nikola Jokic",
       "color": "linear-gradient(#0e2240, #fec524, #8b2131, #244289)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 11,
       "name": "Zion Williamson",
       "color": "linear-gradient(#002b5c, #b4975a, #e31837)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 12,
       "name": "Damian Lillard",
       "color": "linear-gradient(red, #000000)",
-      "votes": 11
+      "votes": 5
     },
     {
       "id": 13,
       "name": "Luka Doncic",
       "color": "linear-gradient(#0053bc,#00285e, #bbc4ca)",
-      "votes": 11
+      "votes": 5
     }
   ]
 }

@@ -5,7 +5,6 @@ function TeamDetailModal({teamInfo, SetShowModal, showModal}) {
     
     const [showMoreYears, SetShowMoreYears] = useState(false)
 
-
     return (
        <div className={`modal ${showModal ? 'show' : ''}`}>
            <div className="modal-content">
@@ -16,7 +15,6 @@ function TeamDetailModal({teamInfo, SetShowModal, showModal}) {
                <div className="modal-body">
                 <p className="city-name">{teamInfo.city}</p>
                 <p>Championship Years: </p>
-                    {/* Show the first four years but creates a See More button when more than 4 years */}
                     {teamInfo.champs.map((year=><li key={year}>{year}</li>)).length > 4 ? 
                     <div>
                         {showMoreYears ? teamInfo.champs.map((year=><li key={year}>{year}</li>)) : teamInfo.champs.map((year=><li key={year}>{year}</li>)).slice(0,4)}
