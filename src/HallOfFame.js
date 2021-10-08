@@ -15,8 +15,6 @@ function HallOfFame() {
             playerObj.id === votedPlayer.id ? votedPlayer : playerObj);
         SetPlayer(updatedPlayerVotes)
     }
-
-    
     function handleVotes(id, playerVotes){
         // const updateVotes = {votes: playerVotes + 1}
         fetch(`http://localhost:4000/players/${id}`,
@@ -28,13 +26,12 @@ function HallOfFame() {
                  .then((handlePlayerVotes))
          }
     
-
     let totalVotes = 0;
     player.map(data=>totalVotes = totalVotes + data.votes)
     const playerList = player.map(info => <PlayerCard key={info.id} SetVotes = {SetVotes} handleVotes = {handleVotes} totalVotes={totalVotes} {...info}/>)
     
     return (
-        <div style={{margin: "34px 40px", width: "800px", height:"820px", backgroundColor:"white", padding:"1px 10px"}}>
+        <div style={{margin: "34px 40px", width: "1600px", height:"820px", backgroundColor:"white", padding:"1px 10px"}}>
             <h2 style={{textAlign:"center"}}>Hall of Fame</h2>
             {playerList}
         </div>
