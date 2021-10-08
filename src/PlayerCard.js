@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function PlayerCard({name, votes,color, totalVotes}) {
+function PlayerCard({name, votes, color, totalVotes, handleVotes}) {
     const widthAmount = ((votes/totalVotes) * 5000)
     const [style, SetStyle] = useState({
             backgroundColor: "white",
@@ -16,7 +16,8 @@ function PlayerCard({name, votes,color, totalVotes}) {
         height:"25px",
         margin: "-9px 10px 0px 10px",
         width: `${widthAmount.toString()}px`,
-        paddingLeft: "5px"
+        paddingLeft: "5px",
+        color: "white"
     }
 
     return (
@@ -24,6 +25,7 @@ function PlayerCard({name, votes,color, totalVotes}) {
            <div style={voteContainer}>
              <p>{name} - {votes}/{totalVotes} Votes</p>
            </div> 
+           {/* <button onClick = {handleVotes}> Vote for me </button> */}
        </div>
     );
 }

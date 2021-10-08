@@ -3,8 +3,6 @@ import './bestTeam.css'
 
 function BestTeam() {
 const[historicalTeams, SetHistoricalTeams] = useState([])
-const[topMatchup, SetTopMatchup] = useState({})
-const[BottomMatchup, SetBottomMatchup] = useState({})
 
 useEffect(()=>{
     fetch("http://localhost:4000/bestTeam")
@@ -36,7 +34,7 @@ function handleClick(){
                         historicalTeams.map((teamObj) => (
                             <tr className="best-team-list" key = {teamObj.id} onClick = {handleClick}>
                                     <td className="team-logo-td"> 
-                                        <img className="best-team-logo" src={teamObj.logo} width = "40" height ="40"/></td>
+                                        <img className="best-team-logo" alt = "Best Team Logo" src={teamObj.logo} width = "40" height ="40"/></td>
                                     <td> {teamObj.year}</td>
                                     <td> {teamObj.team}</td>
                                     <td> {teamObj.wins}</td>
